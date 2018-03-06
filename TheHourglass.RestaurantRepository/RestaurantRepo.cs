@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using System.Data;
+using System.Linq;
 
 namespace TheHourglass.RestaurantRepository
 {
@@ -17,7 +18,7 @@ namespace TheHourglass.RestaurantRepository
             using (var conn = _conn)
             {
                 conn.Open();
-                return conn.Query<Restaurant>("SELECT * FROM restaurant WHERE restaurantid = @id", new { id }).FirstOrDefault();
+                return conn.Query<Restaurant>("SELECT * FROM restaurants WHERE restaurants_id = @id", new { id }).FirstOrDefault();
             }
         }
     }
