@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheHourglassApp", "TheHourglassApp\TheHourglassApp.csproj", "{0FDD5073-01CE-4B63-8825-01009AF0AC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheHourglass.RestaurantRepository", "TheHourglass.RestaurantRepository\TheHourglass.RestaurantRepository.csproj", "{3FA6A2A7-F791-410B-BDD1-6624E37C86E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FDD5073-01CE-4B63-8825-01009AF0AC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDD5073-01CE-4B63-8825-01009AF0AC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDD5073-01CE-4B63-8825-01009AF0AC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDD5073-01CE-4B63-8825-01009AF0AC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA6A2A7-F791-410B-BDD1-6624E37C86E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA6A2A7-F791-410B-BDD1-6624E37C86E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA6A2A7-F791-410B-BDD1-6624E37C86E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA6A2A7-F791-410B-BDD1-6624E37C86E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B0F2BB2-B28B-4083-9805-5949513DAFF1}
+	EndGlobalSection
+EndGlobal
