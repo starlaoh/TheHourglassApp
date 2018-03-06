@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using System.Data;
+using System.Linq;
 
 namespace TheHourglass.RestaurantRepository
 {
