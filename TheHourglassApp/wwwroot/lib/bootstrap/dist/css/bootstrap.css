@@ -1582,8 +1582,8 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -6756,6 +6756,8 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+/* Beginning of my css */
+
 
 
 @media all and (min-width: 420px) {
@@ -7112,4 +7114,8 @@ html {
     bottom: 80%;
     left: 49%;
     transform: translate(-50%, -50%);
+}
+
+.container body-content {
+
 }
