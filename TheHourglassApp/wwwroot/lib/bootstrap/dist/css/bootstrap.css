@@ -6755,3 +6755,361 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+
+@media all and (min-width: 420px) {
+    .containerrr .mix,
+    .containerrr .gap {
+        width: 32%;
+    }
+}
+
+@media all and (min-width: 640px) {
+    .containerrr .mix,
+    .containerrr .gap {
+        width: 32%;
+    }
+}
+
+/* styles*/
+
+
+
+.white {
+    color: #FBFBFB !important;
+}
+
+.black {
+    color: #050706 !important;
+}
+
+
+.stick-fixed {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+::selection {
+    color: #fff;
+    background: #000;
+}
+
+.containerr {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Page Title's */
+
+.title h3 {
+    margin-bottom: 5px;
+    padding-top: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.title p {
+    line-height: 21px;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.horizontal-gold {
+    background: #B6944C;
+    display: inline-block;
+    height: 5px;
+    width: 100px;
+}
+
+
+
+/* Nav */
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background: rgba(0,0,0,.9);
+    }
+}
+
+.nav-logo-wrap .nav-logo {
+    display: table-cell;
+    height: 55px;
+    max-width: 488px;
+    vertical-align: middle;
+    z-index: 0;
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.nav-logo:before,
+.nav-logo:after {
+    display: none;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 105px;
+    background: url('http://www.outtherecreative.com/wp-content/uploads/2018/03/Hoursglass_icon-e1520429106141.png') no-repeat;
+}
+
+
+.navbar-brand {
+    padding: 0px !important;
+}
+
+.nav-logo:hover {
+    height: 60px;
+    width: 105px;
+    background: url('http://www.outtherecreative.com/wp-content/uploads/2018/03/TheHappyHour_white-e1520429071941.png') no-repeat;
+}
+
+.links a {
+    margin-top: 12px;
+    position: relative;
+    right: 20px;
+    color: #B6944C;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+
+.home-section {
+    height: 100vh;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.home-content {
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+    text-align: center;
+}
+
+.home-text {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.hero-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 1.2;
+    margin-top: 10px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    line-height: 1.4;
+    margin-top: 0;
+    position: relative;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hero-logo {
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.container-fluid {
+    float: center;
+}
+
+
+
+/*Footer*/
+
+.footer {
+    background: #0F0F0F;
+}
+
+.arrowww i {
+    color: #b6944c;
+}
+
+    .arrowww i:hover {
+        color: white;
+    }
+
+
+.contact-section {
+    text-align: center;
+    background: #101010;
+}
+
+
+.form-group input {
+    display: block;
+    width: 100%;
+    height: 70px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px solid #fff;
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+.form-control.focus-gold:focus {
+    border-color: #B6944C;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-group textarea {
+    border: 5px solid #fff;
+    border-radius: 0;
+    background: transparent;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.btn.btn-mod {
+    color: #fff;
+    border: 5px solid rgba(255,255,255, .75);
+    border-radius: 0;
+    background: transparent;
+    padding: 12px 45px;
+    font-size: 13px;
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/*Search Bar*/
+@import body
+
+{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid #B6944C;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    color: #000000;
+}
+
+    .searchTerm:focus {
+        color: #000000;
+    }
+
+.searchButton {
+    position: absolute;
+    right: -30px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #B6944C;
+    background: #B6944C;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*SearchBar*/
+.wrap {
+    width: 310px;
+    position: absolute;
+    top: 80%;
+    bottom: 80%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
