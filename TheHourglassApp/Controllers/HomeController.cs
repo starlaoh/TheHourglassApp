@@ -25,9 +25,9 @@ namespace TheHourglassApp.Controllers
 
         public IActionResult About()
         {
-            var rest = _repo.GetRestaurantWithId(0);
+            var rest = _repo.GetRestaurantWithId(1);
 
-            //ViewData["Message"] = $"Your restaurant name is {rest.Name}";
+            ViewData["Message"] = $"Your restaurant name is {rest.Name}";
 
             return View();
         }

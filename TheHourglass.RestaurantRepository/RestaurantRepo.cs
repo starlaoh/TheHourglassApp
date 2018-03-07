@@ -18,8 +18,10 @@ namespace TheHourglass.RestaurantRepository
             using (var conn = _conn)
             {
                 conn.Open();
-                return conn.Query<Restaurant>("SELECT * FROM restaurants WHERE restaurants_id = @id", new { id }).FirstOrDefault();
+                return conn.Query<Restaurant>("SELECT * FROM restaurants WHERE restaurant_id = @id", new { id }).FirstOrDefault();
             }
         }
+
+       
     }
 }
