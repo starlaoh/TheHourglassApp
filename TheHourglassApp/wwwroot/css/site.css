@@ -302,6 +302,10 @@ html {
     text-transform: uppercase;
 }
 
+p {
+    color: #fff;
+}
+
 
 
 
@@ -363,7 +367,6 @@ html {
 
 .portfolio-section {
     text-align: left;
-    background: #f0f0f0;
 }
 
 .container-fluid {
